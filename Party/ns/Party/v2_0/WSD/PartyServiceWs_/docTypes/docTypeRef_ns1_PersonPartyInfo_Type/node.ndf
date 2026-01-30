@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_nsName">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_PersonPartyInfo_Type</value>
+    <value name="node_pkg">Party</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:PartyPref</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_PartyPref_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:FinancialData</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_FinancialData_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:AcctSummary</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_AcctSummary_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:CreditLineData</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_CreditLineData_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:EstablishedDt</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Date_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:ServiceLevelOption</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">ServiceLevelOption_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:ServiceLevel</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OpenEnum_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:OriginatingBranch</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OriginatingBranch_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:PreferredBranch</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">PreferredBranch_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:ResponsibleBranch</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">ResponsibleBranch_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:ResidenceCountry</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_ResidenceCountry_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:ResidenceCode</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OpenEnum_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:LastContactDt</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">DateTime_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:CreditRisk</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_CreditRisk_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:RelationshipMgr</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_RelationshipMgr_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:OEDCode</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OEDCode_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:EmployeeInd</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Boolean_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:ClientDefinedData</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_ClientDefinedData_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:PartyType</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">PartyType_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:PartyClassification</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OpenEnum_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:PartySystemStatus</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">PartySystemStatus_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:TaxDataInfo</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_TaxDataInfo_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:DisclosureData</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_DisclosureData_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:NAICS</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">NAICS_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:WithholdingOption</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">WithholdingOption_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:WithholdingCode</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OpenEnum_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:WithholdingPercent</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Decimal_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:Retention</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Boolean_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:SecretData</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_SecretData_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:LastUpdateDt</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">DateTime_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:ExemptOFAC</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Boolean_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:NameFormat</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">NameFormat_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:PartyOpenMethod</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OpenMethod_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:MarketSegment</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OpenEnum_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:TelebancPswd</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Long_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:RiskRanking</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OpenEnum_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:CashExclusionCode</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OpenEnum_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:CashExclusionLimitAmt</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_CashExclusionLimitAmt_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:ShortName</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">ShortName_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:LocationCode</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">LocationCode_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:Reminder</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_Reminder_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:SocioEconomicCode</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">SocioEconomicCode_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:ExtractCode</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OpenEnum_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:TaxExemptAmt</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_TaxExemptAmt_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:NationalId</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">NationalId_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:PersonData</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_PersonData_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:BirthDt</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Date_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:DeceasedDt</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Date_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:Employment</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_Employment_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:Gender</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Gender_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:MaritalStat</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">MaritalStat_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:Dependents</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Long_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:Nationality</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Nationality_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:ImmigrationStat</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">ImmigrationStat_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:HomeOwnership</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">HomeOwnership_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:AccomodationCode</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">OpenEnum_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns1:Race</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+              <value name="ncName">Race_Type</value>
+            </record>
+          </array>
+          <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="is_public">false</value>
+        <value name="field_name">*doctype</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_PersonPartyInfo_Type</value>
+        </array>
+        <value name="nillable">false</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <record name="schemaType" javaclass="com.wm.util.Values">
+      <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+      <value name="ncName">PersonPartyInfo_Type</value>
+    </record>
+    <value name="schemaDomain">3aaf2aa3e2ebf76414bca0b5caa</value>
+    <value name="schemaRegistered">true</value>
+    <value name="docTypeDomain">7a73da80b11511e497b39c975ccc656c</value>
+    <value name="originURI">file://D:\NWB\02102015\Party_v2_0\Party_v2_0.wsdl</value>
+    <value name="modifiable">false</value>
+  </record>
+</Values>

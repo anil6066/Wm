@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">ping:PingRq</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://www.fiserv.com/PingService/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ping_PingRq_Type</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">ping:PingRs</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://www.fiserv.com/PingService/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ping_PingRs_Type</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">ping:PingRq</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://www.fiserv.com/PingService/V1_0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ping_PingRq_Type</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/ping:PingRq;4;0;Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ping_PingRq_Type/ping:PingMessage;1;0" TO="/ping:PingRs;4;0;Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ping_PingRs_Type/ping:PingMessage;1;0">
+</MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/ping:PingRs;4;0;Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ping_PingRs_Type/ping:Status;4;0;Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_Status_Type/ns1:StatusCode;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">0</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">ns1:StatusCode</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <record name="field_content_type" javaclass="com.wm.util.Values">
+      <value name="contentType">1</value>
+      <value name="internalType">reference</value>
+      <value name="dataTypeVersion">dtVersion2</value>
+      <array name="targetNames" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+          <value name="ncName">StatusCode_Type</value>
+        </record>
+      </array>
+      <value name="schemaDomain">fc146aa1cd400e914569ac2106</value>
+    </record>
+    <value name="nillable">false</value>
+    <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/ping:PingRs;4;0;Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ping_PingRs_Type/ping:Status;4;0;Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_Status_Type/ns1:StatusDesc;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">Ping Successful</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">ns1:StatusDesc</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <record name="field_content_type" javaclass="com.wm.util.Values">
+      <value name="contentType">1</value>
+      <value name="internalType">reference</value>
+      <value name="dataTypeVersion">dtVersion2</value>
+      <array name="targetNames" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+          <value name="ncName">StatusDesc_Type</value>
+        </record>
+      </array>
+      <value name="schemaDomain">fc146aa1cd400e914569ac2106</value>
+    </record>
+    <value name="nillable">false</value>
+    <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/ping:PingRs;4;0;Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ping_PingRs_Type/ping:Status;4;0;Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_Status_Type/ns1:Severity;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">Info</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">ns1:Severity</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <record name="field_content_type" javaclass="com.wm.util.Values">
+      <value name="contentType">1</value>
+      <value name="internalType">reference</value>
+      <value name="dataTypeVersion">dtVersion2</value>
+      <array name="targetNames" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+          <value name="ncName">Severity_Type</value>
+        </record>
+      </array>
+      <value name="schemaDomain">fc146aa1cd400e914569ac2106</value>
+    </record>
+    <value name="nillable">false</value>
+    <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/ping:PingRs;4;0;Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ping_PingRs_Type/ping:Status;4;0;Party.v2_0.WSD.PartyServiceWs_.docTypes:docTypeRef_ns1_Status_Type/ns1:SvcProviderName;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">Signature</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">ns1:SvcProviderName</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <record name="field_content_type" javaclass="com.wm.util.Values">
+      <value name="contentType">1</value>
+      <value name="internalType">reference</value>
+      <value name="dataTypeVersion">dtVersion2</value>
+      <array name="targetNames" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+          <value name="ncName">URL_Type</value>
+        </record>
+      </array>
+      <value name="schemaDomain">fc146aa1cd400e914569ac2106</value>
+    </record>
+    <value name="nillable">false</value>
+    <value name="field_xmlns">http://EFX.integration.fiserv.com/V1_0</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+</FLOW>
